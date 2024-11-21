@@ -46,14 +46,10 @@ for(var i in data){
 }
 
 } */
-void main() {
-  int search=9;
- 
-  for(int i=1; i<=10; i++){
-    
-    print('${i} X $search=${(i)*search}');
-
-
-  }
+//
+void main(){
+  int a=10;
+  int b=5;
+  print(a+b);
 }
 
