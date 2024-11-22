@@ -52,4 +52,10 @@ void main(){
   int b=5;
   print(a+b);
 }
+void main1(){
+  int? a;
+  int b=15;
+  var res =a?? 5+b;
+  print('result :$res');
+}
 
