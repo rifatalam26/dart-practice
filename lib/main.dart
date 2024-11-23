@@ -84,8 +84,11 @@ void main1(){
 //   a < b ? print('$a is smaller') : print('$b is smaller');
 // }
 void main(){
-  int a=65;
-  for(a; a<90; a++){
-    print(String.fromCharCode(a));
+  int count=10;
+  int sum=0;
+  for(int i=1; i<=count; i++){
+   int oddNumber= 2 * i - 1;
+   sum=sum + oddNumber;
   }
+  print("| |\n$sum");
 }
