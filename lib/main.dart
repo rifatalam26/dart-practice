@@ -85,7 +85,7 @@ void main1(){
 // }
 void main(){
   int a=65;
-  for(a; a<=90; a++){
+  for(a; a<90; a++){
     print(String.fromCharCode(a));
   }
 }
