@@ -84,10 +84,8 @@ void main1(){
 //   a < b ? print('$a is smaller') : print('$b is smaller');
 // }
 void main(){
-  int a=5;
-  if(a.isEven){
-    print('a is even');
-  }else{
-    print('a is odd');
+  int a=65;
+  for(a; a<=90; a++){
+    print(String.fromCharCode(a));
   }
 }
