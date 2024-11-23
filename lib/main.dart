@@ -47,7 +47,7 @@ for(var i in data){
 
 } */
 //
-void main(){
+/*void main(){
   int a=10;
   int b=5;
   print(a+b);
@@ -57,5 +57,22 @@ void main1(){
   int b=15;
   var res =a?? 5+b;
   print('result :$res');
+}*/
+void main(){
+  var mark=200;
+  if(mark>=90 && mark<=100){
+    print('A+ Grade');
+  }else if(mark>=80 && mark<90){
+    print('A Grade');
+  }else if(mark>=70 && mark<80){
+    print('B Grade');
+  }else if(mark>=60 && mark<70){
+    print('C Grade');
+  }else if(mark>=30 && mark<60){
+    print('D Grade');
+  }else if(mark>=0 && mark<30){
+    print('You have Failed');
+  }else{
+    print('In valid mark');
+  }
 }
-
