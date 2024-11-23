@@ -84,7 +84,10 @@ void main1(){
 //   a < b ? print('$a is smaller') : print('$b is smaller');
 // }
 void main(){
-  String? name;
-  String name1=name ?? 'Rifat';
-  print(name1);
+  int a=5;
+  if(a.isEven){
+    print('a is even');
+  }else{
+    print('a is odd');
+  }
 }
