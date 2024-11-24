@@ -92,12 +92,26 @@ void main1(){
 //   }
 //   print("| |\n$sum");
 // }
-void main() {
-  int count =5;
-  int sum=0;
-  for(int i=1; i<=count; i++){
-    int evenNumber=2*i;
-     sum=evenNumber+sum;
+void main(){
+  int a=23;
+  int c=0;
+  for(int i=2; i<a; i++){
+    if(a % i==0) {
+      c++;
+    }
   }
-  print('$sum');
+  if(c==0){
+    print('prime');
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
