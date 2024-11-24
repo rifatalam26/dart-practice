@@ -83,12 +83,21 @@ void main1(){
 //
 //   a < b ? print('$a is smaller') : print('$b is smaller');
 // }
-void main(){
-  int count=5;
+// void main(){
+//   int count=5;
+//   int sum=0;
+//   for(int i=1; i<=count; i++){
+//     int evenNumber= 2 * i;
+//     sum=sum + evenNumber;
+//   }
+//   print("| |\n$sum");
+// }
+void main() {
+  int count =5;
   int sum=0;
   for(int i=1; i<=count; i++){
-   int evenNumber= 2 * i;
-   sum=sum + evenNumber;
+    int evenNumber=2*i;
+     sum=evenNumber+sum;
   }
-  print("| |\n$sum");
+  print('$sum');
 }
