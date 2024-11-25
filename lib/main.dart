@@ -116,20 +116,33 @@ void main1(){
 //   print("Summation of all square number | |\n $sum");
 // }
 
-void main(){
-  for(int m=3; m<=30; m++){
-    int c=0;
-    for(int i=2; i<=m/2; i++){
-      if(m % i == 0){
-        c++;
-      }
-    }
-    if(c==0){
-      print("prime : $m");
-    }
-  }
-}
+// void main(){
+//   for(int m=3; m<=30; m++){
+//     int c=0;
+//     for(int i=2; i<=m/2; i++){
+//       if(m % i == 0){
+//         c++;
+//       }
+//     }
+//     if(c==0){
+//       print("prime : $m");
+//     }
+//   }
+// }
 
+
+// for(int i=5; i<=25; i++){
+//}
+ void main(){
+   var sum= 0;
+   int i=5;
+   while(i<=25){
+     int a=i*i;
+     sum +=a;
+     i++;
+   }
+   print(sum);
+ }
 
 
 
