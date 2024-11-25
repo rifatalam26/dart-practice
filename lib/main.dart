@@ -106,17 +106,29 @@ void main1(){
 
 
  //print the summation of squares of all numbers from 5 to 25.
+// void main(){
+//   var sum =0;
+//   for(int i=5; i<=25; i++){
+//     var a = i * i;
+//     print(a);
+//     sum +=a ;
+//   }
+//   print("Summation of all square number | |\n $sum");
+// }
+
 void main(){
-  var sum =0;
-  for(int i=5; i<=25; i++){
-    var a = i * i;
-    print(a);
-    sum +=a ;
+  for(int m=3; m<=30; m++){
+    int c=0;
+    for(int i=2; i<=m/2; i++){
+      if(m % i == 0){
+        c++;
+      }
+    }
+    if(c==0){
+      print("prime : $m");
+    }
   }
-  print("Summation of all square number | |\n $sum");
 }
-
-
 
 
 
