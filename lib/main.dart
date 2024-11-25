@@ -92,18 +92,17 @@ void main1(){
 //   }
 //   print("| |\n$sum");
 // }
-void main(){
-  int a=23;
-  int c=0;
-  for(int i=2; i<a; i++){
-    if(a % i==0) {
-      c++;
-    }
+
+ //write a program which will print the summation of the given series-
+ //101 + 99 + 97 +......... 3+ 1=?
+void main() {
+  dynamic sum=0;
+  for(int i=101; i>=1; i -=2) {
+    print(i);
+    sum +=i;
+     }
+  print("Summation : $sum");
   }
-  if(c==0){
-    print('prime');
-  }
-}
 
 
 
