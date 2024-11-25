@@ -133,18 +133,26 @@ void main1(){
 
 // for(int i=5; i<=25; i++){
 //}
- void main(){
-   var sum= 0;
-   int i=5;
-   while(i<=25){
-     int a=i*i;
-     sum +=a;
-     i++;
-   }
-   print(sum);
- }
+//  void main(){
+//    var sum= 0;
+//    int i=5;
+//    while(i<=25){
+//      int a=i*i;
+//      sum +=a;
+//      i++;
+//    }
+//    print(sum);
+//  }
+//
+void main(){
+  int i=1;
+  while(i<=100){
+    print(i);
+    i++;
 
+  }
 
+}
 
 
 
