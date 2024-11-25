@@ -95,17 +95,26 @@ void main1(){
 
  //write a program which will print the summation of the given series-
  //101 + 99 + 97 +......... 3+ 1=?
-void main() {
-  dynamic sum=0;
-  for(int i=101; i>=1; i -=2) {
-    print(i);
-    sum +=i;
-     }
-  print("Summation : $sum");
+ // void main() {
+ //  dynamic sum=0;
+ //  for(int i=101; i>=1; i -=2) {
+ //    print(i);
+ //    sum +=i;
+ //     }
+ //  print("Summation : $sum");
+ //  }
+
+
+ //print the summation of squares of all numbers from 5 to 25.
+void main(){
+  var sum =0;
+  for(int i=5; i<=25; i++){
+    var a = i * i;
+    print(a);
+    sum +=a ;
   }
-
-
-
+  print("Summation of all square number | |\n $sum");
+}
 
 
 
