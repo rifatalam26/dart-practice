@@ -144,14 +144,22 @@ void main1(){
 //    print(sum);
 //  }
 //
+// void main(){
+//   int i=1;
+//    do{
+//      print(i);
+//      i++;
+//  }while(i<=10);
+//
+// }
 void main(){
-  int i=1;
-   do{
-     print(i);
-     i++;
- }while(i<=10);
+  for(int i=1; i<=10; i++){
+    if(i==5){
+      continue;
+    }
+    print(i);
+  }
 
 }
-
 
 
