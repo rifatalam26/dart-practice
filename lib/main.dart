@@ -153,18 +153,19 @@ void main1(){
 //
 // }
 void main(){
+  String grade= 'A';
+  switch('B'){
+    case 'A+' :{ print('Excelent'); }
+    break;
+    case 'A' :{ print('Good'); }
+      break;
+    case 'A-' :{ print('Not bad'); }
+      break;
+    case 'B' :{ print('Looser'); }
+      break;
+    default : { print('Invalid Grade');}
+  }
 
- for(int r=3; r<=30; r++){
-   var c=0;
-   for(int i=2; i<=r/2; i++){
-     if(r % i == 0){
-       c++;
-     }
-   }
-   if(c==0){
-     print("prime $r");
-   }
- }
 }
 
 
