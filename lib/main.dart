@@ -153,13 +153,18 @@ void main1(){
 //
 // }
 void main(){
-  for(int i=1; i<=10; i++){
-    if(i>=5){
-      break;
-    }
-    print(i);
-  }
 
+ for(int r=3; r<=30; r++){
+   var c=0;
+   for(int i=2; i<=r/2; i++){
+     if(r % i == 0){
+       c++;
+     }
+   }
+   if(c==0){
+     print("prime $r");
+   }
+ }
 }
 
 
