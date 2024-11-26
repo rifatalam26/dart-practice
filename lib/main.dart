@@ -152,20 +152,28 @@ void main1(){
 //  }while(i<=10);
 //
 // }
+// void main(){
+//   String grade= 'A';
+//   switch('B'){
+//     case 'A+' :{ print('Excelent'); }
+//     break;
+//     case 'A' :{ print('Good'); }
+//       break;
+//     case 'A-' :{ print('Not bad'); }
+//       break;
+//     case 'B' :{ print('Looser'); }
+//       break;
+//     default : { print('Invalid Grade');}
+//   }
+// }
 void main(){
-  String grade= 'A';
-  switch('B'){
-    case 'A+' :{ print('Excelent'); }
-    break;
-    case 'A' :{ print('Good'); }
-      break;
-    case 'A-' :{ print('Not bad'); }
-      break;
-    case 'B' :{ print('Looser'); }
-      break;
-    default : { print('Invalid Grade');}
-  }
-
+  print("Hello Flutter Developer");
+  main1();
 }
-
+void main1(){
+  print("This is main Function 1");
+}
+void main2(){
+  print("This is main Function 2");
+}
 
