@@ -145,13 +145,15 @@ void main1(){
 //  }
 //
 void main(){
-  int i=1;
-  while(i<=100){
-    print(i);
-    i++;
-
-  }
-
+  int i=5;
+  var sum=0;
+ do{
+   var a=i * i;
+   print(a);
+   sum +=a;
+   i++;
+ }while(i<=25);
+ print("summation of square number: $sum");
 }
 
 
