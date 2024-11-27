@@ -168,17 +168,14 @@ void main1(){
 // }
 void main(){
   int a=10;
-  int b=30;
-
+  int b=20;
+  int c=30;
   print('this is Rifat Alam');
-  add(a,b);
+  add(c:10,a:20,b:30);
 }
-void add(int a , int b){
-  main2();
-  print('sum : ${a+b}');
-}
-void main2(){
-  print('Najmin Akter');
+void add({int? a ,int?  b ,int? c}){
+
+  print('sum : ${a!+b!+c!}');
 }
 
 
