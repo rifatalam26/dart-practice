@@ -171,9 +171,11 @@ void main(){
   main1();
 }
 void main1(){
+  add();
   print("This is main Function 1");
+
 }
-void main2(){
+void add(){
   print("This is main Function 2");
 }
 
