@@ -167,15 +167,23 @@ void main1(){
 //   }
 // }
 void main(){
-  print("Hello Flutter Developer");
-  main1();
-}
-void main1(){
-  add();
-  print("This is main Function 1");
+  int a=10;
+  int b=30;
 
+  print('this is Rifat Alam');
+  add(a,b);
 }
-void add(){
-  print("This is main Function 2");
+void add(int a , int b){
+  main2();
+  print('sum : ${a+b}');
 }
+void main2(){
+  print('Najmin Akter');
+}
+
+
+
+
+
+
 
