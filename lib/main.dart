@@ -167,17 +167,14 @@ void main1(){
 //   }
 // }
 void main(){
-  int a=10;
-  int b=20;
-  int c=30;
-  print('this is Rifat Alam');
-  add(c:10,a:20,b:30);
+   var Myc = Myclass();
+   Myc.Fname();
 }
-void add({int? a ,int?  b ,int? c}){
-
-  print('sum : ${a!+b!+c!}');
+class Myclass{
+  void Fname(){
+    print("This is Rifat Alam");
+  }
 }
-
 
 
 
