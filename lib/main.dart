@@ -166,19 +166,46 @@ void main1(){
 //     default : { print('Invalid Grade');}
 //   }
 // }
+// void main(){
+// var myC=myClass();
+// myC.printname( 'nam');
+//
+// myC.printname("alam");
+//
+// myC.printname('Rifat');
+// }
+// class myClass{
+//   void printname(String name){
+//     print(name);
+//   }
+// }
 void main(){
-var myC=myClass();
-myC.printname( 'nam');
+  var myC=myClass();
+ myC.add('Rifat');
+  //
+  //
+  //
+  myC.add("Alam");
+  //
+  //
+  //
+  myC.add("Najmin");
+  print(myC.Add());
 
-myC.printname("alam");
-
-myC.printname('Rifat');
 }
 class myClass{
-  void printname(String name){
-    print(name);
+  void add(String alam){
+    print(alam);
+  }
+  int Add(){
+    int a=10;
+    int b=20;
+   var sum=a+b;
+    return sum;
   }
 }
+
+
 
 
 
