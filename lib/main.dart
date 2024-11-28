@@ -167,15 +167,18 @@ void main1(){
 //   }
 // }
 void main(){
-   var Myc = Myclass();
-   Myc.Fname();
+var myC=myClass();
+myC.printname( 'nam');
+
+myC.printname("alam");
+
+myC.printname('Rifat');
 }
-class Myclass{
-  void Fname(){
-    print("This is Rifat Alam");
+class myClass{
+  void printname(String name){
+    print(name);
   }
 }
-
 
 
 
