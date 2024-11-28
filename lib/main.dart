@@ -190,17 +190,16 @@ void main(){
   //
   //
   myC.add("Najmin");
-  print(myC.Add());
+  print(myC.Add(3,4));
 
 }
 class myClass{
   void add(String alam){
     print(alam);
   }
-  int Add(){
-    int a=10;
-    int b=20;
-   var sum=a+b;
+  int Add(int num1 , int num2){
+
+   var sum=num1+num2;
     return sum;
   }
 }
