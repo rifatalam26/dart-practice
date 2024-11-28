@@ -180,32 +180,13 @@ void main1(){
 //   }
 // }
 void main(){
-  var myC=myClass();
- myC.add('Rifat');
-  //
-  //
-  //
-  myC.add("Alam");
-  //
-  //
-  //
-  myC.add("Najmin");
-  print(myC.Add(3,4));
-
+  var res=add(10, 11);
+  print(res);
 }
-class myClass{
-  void add(String alam){
-    print(alam);
-  }
-  int Add(int num1 , int num2){
-
-   var sum=num1+num2;
-    return sum;
-  }
+int add(int a,int b){
+  var sum=a+b;
+  return sum;
 }
-
-
-
 
 
 
