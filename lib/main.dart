@@ -196,6 +196,7 @@ void main1(){
 void main(){
   print("This ie main Function");
   var q=person(10, 20, "alam");
+  q.name="Najmin";
   q.info();
 }
 class person{
