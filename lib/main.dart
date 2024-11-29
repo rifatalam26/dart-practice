@@ -175,26 +175,29 @@ void main1(){
 //     print(name);
 //   }
 // }
+// void main(){
+//   var Rcl=Rclass();
+//   Rcl.m();
+//  var d= Rcl.roll();
+//   print(d);
+// }
+// class Rclass{
+//   void m(){
+//     print("alam");
+//
+//   }
+//   int roll(){
+//     int a=5;
+//     int b=7;
+//     int c=a+b;
+//     return c;
+//   }
+// }
 void main(){
-  var Rcl=Rclass();
-  Rcl.m();
- var d= Rcl.roll();
-  print(d);
+  double a=.5;
+  int b=a.toInt();
+  print(b.runtimeType);
 }
-class Rclass{
-  void m(){
-    print("alam");
-
-  }
-  int roll(){
-    int a=5;
-    int b=7;
-    int c=a+b;
-    return c;
-  }
-}
-
-
 
 
 
