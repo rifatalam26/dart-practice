@@ -12,11 +12,7 @@
         }
     
 } */
-// void main(){
-//     for(int i=1; i<10; i++);
-//     print('The num')
-// }
-//
+
 
 /*void main() {
  List data=['rifat','alam','najmin',27,true];
@@ -185,10 +181,11 @@ void main1(){
      for(int i=2; i<=a/2; i++){
        if(a%i==0){
          c++;
+          break;
        }
      }
      if(c==0){
-       print("Even number :$a");
+       print("prime number :$a");
      }
    }
  }
