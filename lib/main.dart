@@ -194,9 +194,9 @@ void main1(){
 //   }
 // }
 void main(){
-  double a=.5;
-  int b=a.toInt();
-  print(b.runtimeType);
+  String a="5";
+  int b=int.parse(a);
+  print(b);
 }
 
 
