@@ -175,21 +175,15 @@ void main1(){
 //     print(name);
 //   }
 // }
- void main(){
-   for(int a=3; a<=100; a++){
-     var c=0;
-     for(int i=2; i<=a/2; i++){
-       if(a%i==0){
-         c++;
-          break;
-       }
-     }
-     if(c==0){
-       print("prime number :$a");
-     }
-   }
- }
-
+void main(){
+  var Rcl=Rclass();
+  Rcl.m();
+}
+class Rclass{
+  void m(){
+    print("alam");
+  }
+}
 
 
 
