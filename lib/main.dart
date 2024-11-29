@@ -194,9 +194,17 @@ void main1(){
 //   }
 // }
 void main(){
-  String a="5";
-  int b=int.parse(a);
-  print(b);
+  print("This ie main Function");
+  var ob=person();
+   ob.info();
+}
+class person{
+  String name="Rirat Alam";
+  String dep="cst";
+  int roll=20024;
+  void info(){
+    print("Information of person: $name \n$dep \n$roll");
+  }
 }
 
 
