@@ -195,15 +195,15 @@ void main1(){
 // }
 void main(){
   print("This ie main Function");
-  person();
+  person(10, 20, "alam");
 
 }
 class person{
   String name="Rirat Alam";
   String dep="cst";
   int roll=20024;
-  person(){
-    print("Hey im constructor");
+  person(int a, int b,String c){
+    print("Hey im constructor; \n a=$a \nb=$b \nc=$c");
   }
   void info(){
     print("Information of person: $name \n$dep \n$roll");
