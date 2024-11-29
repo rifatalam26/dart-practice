@@ -180,14 +180,10 @@ void main1(){
 //   }
 // }
 void main(){
-  var res=add(10, 11);
-  print(res);
+  for(int i=101; i>=1; i -=2){
+    print(i);
+  }
 }
-int add(int a,int b){
-  var sum=a+b;
-  return sum;
-}
-
 
 
 
