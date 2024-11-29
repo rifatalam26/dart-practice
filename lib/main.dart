@@ -195,18 +195,20 @@ void main1(){
 // }
 void main(){
   print("This ie main Function");
-  person(10, 20, "alam");
-
+  var q=person(10, 20, "alam");
+  q.info();
 }
 class person{
   String name="Rirat Alam";
   String dep="cst";
   int roll=20024;
+
   person(int a, int b,String c){
     print("Hey im constructor; \n a=$a \nb=$b \nc=$c");
+
   }
   void info(){
-    print("Information of person: $name \n$dep \n$roll");
+    print("Information of person: \n$name \n$dep \n$roll");
   }
 }
 
