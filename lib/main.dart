@@ -178,7 +178,8 @@ void main1(){
 void main(){
   var Rcl=Rclass();
   Rcl.m();
-  print(Rcl.roll());
+ var d= Rcl.roll();
+  print(d);
 }
 class Rclass{
   void m(){
