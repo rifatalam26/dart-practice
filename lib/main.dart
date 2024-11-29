@@ -178,10 +178,18 @@ void main1(){
 void main(){
   var Rcl=Rclass();
   Rcl.m();
+  print(Rcl.roll());
 }
 class Rclass{
   void m(){
     print("alam");
+
+  }
+  int roll(){
+    int a=5;
+    int b=7;
+    int c=a+b;
+    return c;
   }
 }
 
