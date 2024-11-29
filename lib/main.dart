@@ -195,8 +195,8 @@ void main1(){
 // }
 void main(){
   print("This ie main Function");
-  var ob=person();
-  ob.info();
+  person().info();
+
 }
 class person{
   String name="Rirat Alam";
