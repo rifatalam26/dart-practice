@@ -180,14 +180,21 @@ void main1(){
 //   }
 // }
  void main(){
-   var sum=0;
-   for(int i=101; i>=1; i -=2){
-print(i);
-     var a=i*i;
-     print(a);
-     sum +=a;
+   for(int a=3; a<=100; a++){
+     var c=0;
+     for(int i=2; i<=a/2; i++){
+       if(a%i==0){
+         c++;
+       }
+     }
+     if(c==0){
+       print("Even number :$a");
+     }
    }
-   print(sum);
  }
+
+
+
+
 
 
