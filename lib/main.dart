@@ -180,9 +180,13 @@ void main1(){
 //   }
 // }
 void main(){
+  var sum=0;
   for(int i=101; i>=1; i -=2){
     print(i);
+    sum +=i;
+
   }
+  print(sum);
 }
 
 
