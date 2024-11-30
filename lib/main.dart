@@ -223,6 +223,10 @@ void main(){
   n.add();
 }
 class first{
+  first(){
+    String a="this my constructor";
+    print(a);
+  }
   String f_name="Zomil Uddin";
   int f_age=45;
   String m_name="Ferdowshi Begum";
