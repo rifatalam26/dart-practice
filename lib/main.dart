@@ -193,21 +193,59 @@ void main1(){
 //     return c;
 //   }
 // }
+// void main(){
+//   print("This ie main Function");
+//
+//   //q.name="Najmin";
+//  var ob= p();
+//  ob.display();
+// }
+// class person {
+//   String name="alam";
+//   String dep = "cst";
+//   int roll = 20024;
+//
+//
+//   void info() {
+//     print("Information of person: \n$name \n$dep \n$roll");
+//   }
+// }
+// class p extends person{
+// void display(){
+//   print(name);
+//   print(dep);
+//   print(roll);
+// }
+// }
 void main(){
-  print("This ie main Function");
-  var q=person();
-  q.name="Najmin";
-  q.info();
+  print("This is my code");
+  var n= first();
+  n.add();
 }
-class person {
-  late String name;
-  String dep = "cst";
-  int roll = 20024;
-
-
-  void info() {
-    print("Information of person: \n$name \n$dep \n$roll");
+class first{
+  String f_name="Zomil Uddin";
+  int f_age=45;
+  String m_name="Ferdowshi Begum";
+  int m_age=40;
+  void add(){
+    print("Father name : $f_name");
+    print("Age : $f_age");
+    print("Mother name : $m_name");
+    print("Age : $m_age");
   }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
