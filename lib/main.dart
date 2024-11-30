@@ -249,13 +249,14 @@ void main1(){
 //     return d;
 //   }
 // }
-void opp(int a, [var b]){
+void onp(int a, {var b, var c}){
 print( "a is: $a");
 print("b is : $b");
+print("c is : $c");
 }
 void main(){
-  print("optional positional parameter");
- opp(23);
+  print("optional named parameter");
+ onp(23,b: 2,c: 4);
 }
 
 
