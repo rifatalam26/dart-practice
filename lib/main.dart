@@ -249,19 +249,14 @@ void main1(){
 //     return d;
 //   }
 // }
+int add(int a, int b){
+  var res=a+b;
+  return res;
+}
 void main(){
-  rcl Cl=rcl();
-  print(Cl.cl());
+  var output=add(10, 20);
+  print(output);
 }
-class rcl{
-  int cl() {
-    int a = 10;
-    int b = 39;
-    var c = (a + b);
-    return c;
-  }
-}
-
 
 
 
