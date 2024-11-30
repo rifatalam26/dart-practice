@@ -217,40 +217,50 @@ void main1(){
 //   print(roll);
 // }
 // }
+// void main(){
+//   print("This is my code");
+//   //var n= first();
+//  // n.add();
+//   var n=second();
+//   var s=n.r();
+//   print(s);
+// }
+// class first{
+//   first(){
+//     String a="this my constructor";
+//     print(a);
+//   }
+//   String f_name="Zomil Uddin";
+//   int f_age=45;
+//   String m_name="Ferdowshi Begum";
+//   int m_age=40;
+//   void add(){
+//     print("Father name : $f_name");
+//     print("Age : $f_age");
+//     print("Mother name : $m_name");
+//     print("Age : $m_age");
+//   }
+// }
+// class second extends first{
+//   int r(){
+//     int b=4;
+//     int c=7;
+//     var d=b+c;
+//     return d;
+//   }
+// }
 void main(){
-  print("This is my code");
-  //var n= first();
- // n.add();
-  var n=second();
-  var s=n.r();
-  print(s);
+  rcl Cl=rcl();
+  print(Cl.cl());
 }
-class first{
-  first(){
-    String a="this my constructor";
-    print(a);
-  }
-  String f_name="Zomil Uddin";
-  int f_age=45;
-  String m_name="Ferdowshi Begum";
-  int m_age=40;
-  void add(){
-    print("Father name : $f_name");
-    print("Age : $f_age");
-    print("Mother name : $m_name");
-    print("Age : $m_age");
+class rcl{
+  int cl() {
+    int a = 10;
+    int b = 39;
+    var c = (a + b);
+    return c;
   }
 }
-class second extends first{
-  int r(){
-    int b=4;
-    int c=7;
-    var d=b+c;
-    return d;
-  }
-}
-
-
 
 
 
