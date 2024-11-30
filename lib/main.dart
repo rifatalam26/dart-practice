@@ -249,14 +249,14 @@ void main1(){
 //     return d;
 //   }
 // }
-void onp(int a, {var b, var c}){
-print( "a is: $a");
-print("b is : $b");
-print("c is : $c");
+void dvp(int a, {int b= 4}){
+  print( "a is: $a");
+  print("b is : $b");
+
 }
 void main(){
-  print("optional named parameter");
- onp(23,b: 2,c: 4);
+  print("default valued parameter");
+  dvp(23);
 }
 
 
