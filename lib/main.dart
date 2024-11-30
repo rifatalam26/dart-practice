@@ -249,15 +249,14 @@ void main1(){
 //     return d;
 //   }
 // }
-int add(int a, int b){
-  var res=a+b;
-  return res;
+void opp(int a, [var b]){
+print( "a is: $a");
+print("b is : $b");
 }
 void main(){
-  var output=add(10, 20);
-  print(output);
+  print("optional positional parameter");
+ opp(23);
 }
-
 
 
 
