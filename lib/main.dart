@@ -219,8 +219,11 @@ void main1(){
 // }
 void main(){
   print("This is my code");
-  var n= first();
-  n.add();
+  //var n= first();
+ // n.add();
+  var n=second();
+  var s=n.r();
+  print(s);
 }
 class first{
   first(){
@@ -236,6 +239,14 @@ class first{
     print("Age : $f_age");
     print("Mother name : $m_name");
     print("Age : $m_age");
+  }
+}
+class second extends first{
+  int r(){
+    int b=4;
+    int c=7;
+    var d=b+c;
+    return d;
   }
 }
 
