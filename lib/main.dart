@@ -251,7 +251,7 @@ void main1(){
 // }
 void main(){
   List a=["alam","najmin",10,11.1,true];
-  print(a.length);
+  print(a.runtimeType);
 }
 
 
