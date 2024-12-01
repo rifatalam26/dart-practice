@@ -250,16 +250,19 @@ void main1(){
 //   }
 // }
 void main(){
-  int a=5;
-  int b=0;
-  for(int i=2; i<a; i++){
-    if(a%i==0){
-      b++;
-      print("b= $b");
-    }
-  }
-  if(b==0){
-    print("$a is prime number");
+ for(int a=3; a<=300; a++) {
+   int b = 0;
+   for (int i = 2; i < a; i++) {
+     if (a % i == 0) {
+       b++;
+       break;
+       print("b= $i");
+     }
+   }
+   if(b==0){
+     print(" prime number : $a");
+ }
+
   }
 }
 
