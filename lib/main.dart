@@ -249,14 +249,18 @@ void main1(){
 //     return d;
 //   }
 // }
-void dvp(int a, {int b= 4}){
-  print( "a is: $a");
-  print("b is : $b");
-
-}
 void main(){
-  print("default valued parameter");
-  dvp(23);
+  int a=5;
+  int b=0;
+  for(int i=2; i<a; i++){
+    if(a%i==0){
+      b++;
+      print("b= $b");
+    }
+  }
+  if(b==0){
+    print("$a is prime number");
+  }
 }
 
 
