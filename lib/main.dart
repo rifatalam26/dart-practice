@@ -252,6 +252,8 @@ void main1(){
 void main(){
   List a=["alam","najmin",10,11.1,true];
   print(a.runtimeType);
+  List<String> c=["A","B","C","D"];
+  print(c.runtimeType);
 }
 
 
