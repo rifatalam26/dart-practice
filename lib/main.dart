@@ -250,20 +250,8 @@ void main1(){
 //   }
 // }
 void main(){
- for(int a=3; a<=300; a++) {
-   int b = 0;
-   for (int i = 2; i < a; i++) {
-     if (a % i == 0) {
-       b++;
-       break;
-       print("b= $i");
-     }
-   }
-   if(b==0){
-     print(" prime number : $a");
- }
-
-  }
+  List a=["alam","najmin",10,11.1,true];
+  print(a);
 }
 
 
