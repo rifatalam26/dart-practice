@@ -253,6 +253,9 @@ void main(){
 
   List<String> c=["A","B","C","D"];
   print(c[3]);
+  c.removeAt(2);
+  print(c);
+
 }
 
 
