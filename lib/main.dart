@@ -251,10 +251,14 @@ void main1(){
 // }
 void main(){
   List data=[];
-var f=fac(4);
-print(f);
-data.add(f);
-print(data);
+
+for(int i=1; i<=10; i++) {
+  var f=fac(i);
+  //print(f);
+  data.add(f);
+
+}
+  print(data);
 }
 int fac(int a){
   var c=1;
