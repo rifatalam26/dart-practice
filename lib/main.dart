@@ -249,27 +249,13 @@ void main1(){
 //     return d;
 //   }
 // }
-void main(){
-  List data=[];
 
-for(int i=1; i<=10; i++) {
-  var f=fac(i);
-  //print(f);
-  data.add(f);
-
-}
-  print(data);
-}
-int fac(int a){
-  var c=1;
-  for(int i=1; i<=a; i++){
-    c=c*i;
-
+  void main(){
+   Map m={
+     "name":"Rifat","roll":10027,"sub":"CST"
+   };
+   print(m);
   }
-  return c;
-}
-
-
 
 
 
