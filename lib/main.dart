@@ -250,16 +250,20 @@ void main1(){
 //   }
 // }
 void main(){
-  var d=r(5,7);
-  print(d);
+  List data=[];
+var f=fac(4);
+print(f);
+data.add(f);
+print(data);
 }
-int r(int a, int b){
+int fac(int a){
+  var c=1;
+  for(int i=1; i<=a; i++){
+    c=c*i;
 
-
-  var c=a+b;
+  }
   return c;
 }
-
 
 
 
