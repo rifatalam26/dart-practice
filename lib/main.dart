@@ -254,6 +254,7 @@ void main1(){
    Map m={
      "name":"Rifat","roll":10027,"sub":"CST"
    };
+   m["clg"]="bdic";
    print(m);
   }
 
