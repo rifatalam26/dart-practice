@@ -250,13 +250,13 @@ void main1(){
 //   }
 // }
 void main(){
-  var d=r();
+  var d=r(5,7);
   print(d);
 }
-int r(){
-  int a=2;
-  int b=3;
-  var c=a=b;
+int r(int a, int b){
+
+
+  var c=a+b;
   return c;
 }
 
