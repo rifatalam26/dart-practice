@@ -250,16 +250,15 @@ void main1(){
 //   }
 // }
 void main(){
-
-  List<String> c=["A","B","C","D"];
-  print(c[3]);
-  c.removeAt(2);
-  print(c);
-
+  var d=r();
+  print(d);
 }
-
-
-
+int r(){
+  int a=2;
+  int b=3;
+  var c=a=b;
+  return c;
+}
 
 
 
