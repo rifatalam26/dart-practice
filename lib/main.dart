@@ -252,17 +252,20 @@ void main1(){
 
   void main(){
     Map a={"name":"Rifat",
-           "roll":10000};
+           "roll":10000,};
 
     Map b={"nam":"Alam",
-           "roll":20000};
+           "roll":20000,
+    };
     Map c={"name":"Najmin",
            "roll":30000};
     List l=[];
     l.add(a);
     l.add(b);
     l.add(c);
-    print(l);
+    print(l[1]);
+    l[1]["name"]="Akter";
+    print(l[1]);
   }
 
 
