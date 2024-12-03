@@ -258,9 +258,11 @@ void main1(){
            "roll":20000};
     Map c={"name":"Najmin",
            "roll":30000};
-    List d=[];
-    d.add(a);
-    print(d);
+    List l=[];
+    l.add(a);
+    l.add(b);
+    l.add(c);
+    print(l);
   }
 
 
