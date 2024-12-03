@@ -251,13 +251,17 @@ void main1(){
 // }
 
   void main(){
-   Map m={
-     "name":"Rifat","roll":10027,"sub":"CST"
-   };
-   m["clg"]="bdic";
-   print(m);
-  }
+    Map a={"name":"Rifat",
+           "roll":10000};
 
+    Map b={"nam":"Alam",
+           "roll":20000};
+    Map c={"name":"Najmin",
+           "roll":30000};
+    List data=[];
+    data.add(a);
+    print(data[0]);
+  }
 
 
 
