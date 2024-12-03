@@ -254,7 +254,7 @@ void main1(){
     Map a={"name":"Rifat",
            "roll":10000,};
 
-    Map b={"nam":"Alam",
+    Map b={"name":"Alam",
            "roll":20000,
     };
     Map c={"name":"Najmin",
