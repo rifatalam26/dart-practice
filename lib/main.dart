@@ -251,13 +251,14 @@ void main1(){
 // }
 void main(){
   var op=data();
-  var d=op.l(2 ,3);
-  print(d);
+  op.l(a:2,b:4);
+
 }
  class data{
-   int l(int a,int b){
-     var c=a+b;
-      return c;
+   void l({int a=4, int b=2}){
+     print("a is $a");
+     print("b is $b");
+
      }
    }
 
