@@ -249,21 +249,18 @@ void main1(){
 //     return d;
 //   }
 // }
-
- class data{
-   void l(){
-     var c=0;
-     for(int i=1; i<=10; i++){
-       c+=i;
-
-       print(c);
-     }
-
-   }
- }
 void main(){
-   var oop=data();
-   oop.l();
+  var op=data();
+  var d=op.l(2 ,3);
+  print(d);
 }
+ class data{
+   int l(int a,int b){
+     var c=a+b;
+      return c;
+     }
+   }
+
+
 
 
