@@ -255,8 +255,10 @@ void main1(){
      var c=0;
      for(int i=1; i<=10; i++){
        c+=i;
+
+       print(c);
      }
-     print(c);
+
    }
  }
 void main(){
