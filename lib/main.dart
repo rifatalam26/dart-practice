@@ -250,11 +250,13 @@ void main1(){
 //   }
 // }
 void main(){
-  int a=7;
-  int b=4;
-  print("addition: ${a + b} \n subtraction: ${a-b} "
-      "\n multiplication: ${a*b} \n division: ${a/b}");
-
+ int a=6;
+ if(a % 2==0){
+   print("The number is even");
+ }
+ else{
+   print("The number is odd");
+ }
 }
 
 
