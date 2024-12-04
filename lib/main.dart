@@ -249,15 +249,10 @@ void main1(){
 //     return d;
 //   }
 // }
-void onp(int c,{int? a, int? b}){
-  print(a,);
-  print(c,);
-  print(b);
+main() {
+  var now = DateTime.now();
+  print(now);
 }
-void main(){
-  onp(1,a:2,b:3);
-}
-
 
 
 
