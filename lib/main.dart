@@ -249,10 +249,17 @@ void main1(){
 //     return d;
 //   }
 // }
-main() {
-  var now = DateTime.now();
-  print(now);
+void main(){
+  int a=7;
+  int b=4;
+  print("addition: ${a + b} \n subtraction: ${a-b} "
+      "\n multiplication: ${a*b} \n division: ${a/b}");
+
 }
+
+
+
+
 
 
 
