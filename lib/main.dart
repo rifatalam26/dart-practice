@@ -257,7 +257,8 @@ void main(){
   l.add(a);
   l.add(b);
   l.add(c);
-  print(l);
+ l[0]["name"]="Najmin";
+ print(l[0]);
 }
 
 
