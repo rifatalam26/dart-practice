@@ -250,13 +250,12 @@ void main1(){
 //   }
 // }
 void main(){
- int a=6;
- if(a % 2==0){
-   print("The number is even");
- }
- else{
-   print("The number is odd");
- }
+int a=4;
+int c=1;
+for(int i=1; i<=a; i++){
+  c=c*i;
+}
+print(c);
 }
 
 
