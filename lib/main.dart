@@ -250,17 +250,28 @@ void main1(){
 //   }
 // }
 void main(){
-  var op=data();
-  op.l(a:2,b:4);
-
+  Map a={"name":"Alam","roll":12123,};
+  Map b={"name":"Rifat","roll":3967};
+  Map c={"name":"Abusaid","roll":5689};
+  List l=[];
+  l.add(a);
+  l.add(b);
+  l.add(c);
+  print(l);
 }
- class data{
-   void l({int a=4, int b=2}){
-     print("a is $a");
-     print("b is $b");
 
-     }
-   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
