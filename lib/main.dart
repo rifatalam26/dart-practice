@@ -249,18 +249,14 @@ void main1(){
 //     return d;
 //   }
 // }
-void main(){
-  Map a={"name":"Alam","roll":12123,};
-  Map b={"name":"Rifat","roll":3967};
-  Map c={"name":"Abusaid","roll":5689};
-  List l=[];
-  l.add(a);
-  l.add(b);
-  l.add(c);
- l[0]["name"]="Najmin";
- print(l[0]);
+void onp(int c,{int? a, int? b}){
+  print(a,);
+  print(c,);
+  print(b);
 }
-
+void main(){
+  onp(1,a:2,b:3);
+}
 
 
 
