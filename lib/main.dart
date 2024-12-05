@@ -249,30 +249,18 @@ void main1(){
 //     return d;
 //   }
 // }
-
-
-
-// void main(){
-//   int a=5;
-//   int b=6;
-//   int c=7;
-//   if(a>b && a>c){
-//     print("a is big");
-//   }else if(b>a && b>c){
-//     print("b is big");
-//   }else{
-//     print("c is big");
-//   }
-// }
-
-
-
 void main(){
-  int a=7;
-  for(int i=1; i<=10; i++){
-    print("$i x $a = ${i*a}");
+  List l=[1,2,3,4,5,6,7,8,9,10];
+  var sum=0;
+  for(int num in l){
+    sum +=num;
+
   }
+  print(sum);
 }
+
+
+
 
 
 
