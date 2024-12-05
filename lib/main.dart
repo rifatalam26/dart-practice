@@ -267,19 +267,11 @@ void main1(){
 
 
 
-int fac(int a){
-  var c=1;
-  for(int i=1; i<=a; i++){
-    c*=i;
-  }
-  return c;
-}
 void main(){
-  for(int i=1; i<=5; i++){
-    var f=fac(i);
-    print(f);
+  int a=7;
+  for(int i=1; i<=10; i++){
+    print("$i x $a = ${i*a}");
   }
-
 }
 
 
