@@ -249,16 +249,21 @@ void main1(){
 //     return d;
 //   }
 // }
+
+
+
 void main(){
-int a=4;
-int c=1;
-for(int i=1; i<=a; i++){
-  c=c*i;
+  int a=5;
+  int b=6;
+  int c=7;
+  if(a>b && a>c){
+    print("a is big");
+  }else if(b>a && b>c){
+    print("b is big");
+  }else{
+    print("c is big");
+  }
 }
-print(c);
-}
-
-
 
 
 
