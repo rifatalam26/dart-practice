@@ -265,19 +265,22 @@ void main1(){
 //   }
 // }
 
-void main(){
-  int number=-9;
-  if(number > 0){
-    print("number is positive");
-  }else if(number < 0){
-    print("number is negative");
-  }else{
-    print("number is zero");
+
+
+int fac(int a){
+  var c=1;
+  for(int i=1; i<=a; i++){
+    c*=i;
   }
+  return c;
 }
+void main(){
+  for(int i=1; i<=5; i++){
+    var f=fac(i);
+    print(f);
+  }
 
-
-
+}
 
 
 
