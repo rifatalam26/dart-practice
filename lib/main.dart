@@ -252,20 +252,29 @@ void main1(){
 
 
 
+// void main(){
+//   int a=5;
+//   int b=6;
+//   int c=7;
+//   if(a>b && a>c){
+//     print("a is big");
+//   }else if(b>a && b>c){
+//     print("b is big");
+//   }else{
+//     print("c is big");
+//   }
+// }
+
 void main(){
-  int a=5;
-  int b=6;
-  int c=7;
-  if(a>b && a>c){
-    print("a is big");
-  }else if(b>a && b>c){
-    print("b is big");
+  int number=-9;
+  if(number > 0){
+    print("number is positive");
+  }else if(number < 0){
+    print("number is negative");
   }else{
-    print("c is big");
+    print("number is zero");
   }
 }
-
-
 
 
 
