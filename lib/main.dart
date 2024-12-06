@@ -250,13 +250,10 @@ void main1(){
 //   }
 // }
 void main(){
-  Map a={"name" : "Rifat","roll":24426, "sub":"cst"};
-  Map b={"name": "Siddik","roll":35757, "sub":"cst"};
-  List l=[];
-  l.add(a);
-  l.add(b);
-  l[1]["name"]="alam";
-  print(l[1]);
+ List l=[12,"Rifat","Alam",21,"dahaka"];
+ Map m={};
+ m['l']=l;
+ print(m);
 }
 
 
