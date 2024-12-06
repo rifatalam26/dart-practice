@@ -256,7 +256,8 @@ void main(){
 
  m['l']=l;
 
- print(m);
+
+ print(m.length);
 }
 
 
