@@ -250,13 +250,13 @@ void main1(){
 //   }
 // }
 void main(){
-  List l=[1,2,3,4,5,6,7,8,9,10];
-  var sum=0;
-  for(int i=l.first; i<=l.last; i++){
-    sum +=i;
-
-  }
-  print(sum);
+  Map a={"name" : "Rifat","roll":24426, "sub":"cst"};
+  Map b={"name": "Siddik","roll":35757, "sub":"cst"};
+  List l=[];
+  l.add(a);
+  l.add(b);
+  l[1]["name"]="alam";
+  print(l[1]);
 }
 
 
