@@ -251,8 +251,11 @@ void main1(){
 // }
 void main(){
  List l=[12,"Rifat","Alam",21,"dahaka"];
+
  Map m={};
+
  m['l']=l;
+
  print(m);
 }
 
