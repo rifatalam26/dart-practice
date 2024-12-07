@@ -249,16 +249,20 @@ void main1(){
 //     return d;
 //   }
 // }
-//Check if a Number is Odd or Even
-void main(){
-int a=77;
-if(a%2==0){
- print("The number is Even");
-}else{
- print("The number is Odd");
-}
-}
 
+// Find the Largest of Three Numbers
+void main(){
+ int a=5;
+ int b=7;
+ int c=10;
+ if(a>b && a>c){
+  print("$a is Largest");
+ }else if(b>a && b>c){
+  print("$b is Largest");
+ }else{
+  print("$c is Largest");
+ }
+}
 
 
 
