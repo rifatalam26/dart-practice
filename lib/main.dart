@@ -1,4 +1,3 @@
-
 /* void main() {
     int a=10;
     int b=30;
@@ -10,19 +9,18 @@
         }else{
             print('c is Big');
         }
-    
-} */
 
+} */
 
 /*void main() {
  List data=['rifat','alam','najmin',27,true];
-  
+
   var search='alam';
-  
+
   for(int i=0; i<data.length; i++){
-    
+
     if(data[i]==search){
-    
+
     print('$search found in index: $i');
   }
 }
@@ -89,19 +87,18 @@ void main1(){
 //   print("| |\n$sum");
 // }
 
- //write a program which will print the summation of the given series-
- //101 + 99 + 97 +......... 3+ 1=?
- // void main() {
- //  dynamic sum=0;
- //  for(int i=101; i>=1; i -=2) {
- //    print(i);
- //    sum +=i;
- //     }
- //  print("Summation : $sum");
- //  }
+//write a program which will print the summation of the given series-
+//101 + 99 + 97 +......... 3+ 1=?
+// void main() {
+//  dynamic sum=0;
+//  for(int i=101; i>=1; i -=2) {
+//    print(i);
+//    sum +=i;
+//     }
+//  print("Summation : $sum");
+//  }
 
-
- //print the summation of squares of all numbers from 5 to 25.
+//print the summation of squares of all numbers from 5 to 25.
 // void main(){
 //   var sum =0;
 //   for(int i=5; i<=25; i++){
@@ -125,7 +122,6 @@ void main1(){
 //     }
 //   }
 // }
-
 
 // for(int i=5; i<=25; i++){
 //}
@@ -250,22 +246,55 @@ void main1(){
 //   }
 // }
 // Print Multiples of a Number
+
+// import 'dart:math';
+//
+// void main(){
+//   List<int> l=[1,2,3,21,4,30,5,6,7,8,9,10];
+//   int large =l[10];
+//   int smaller =l[5];
+//   for(int num in l){
+//     if (num>large){
+//       large = num;
+//     }if(num < smaller){
+//       smaller = num;
+//     }
+//   }
+//
+//   print("largest number is $large \nsmallest number is $smaller");
+//
+//   }
+
+// void main() {
+//   String letter = "z";
+//   if (letter == "a" ||
+//       letter == "e" ||
+//       letter == "i" ||
+//       letter == "o" ||
+//       letter == "u" ||
+//       letter == "A" ||
+//       letter == "E" ||
+//       letter == "I" ||
+//       letter == "O" ||
+//       letter == "U") {
+//     print("$letter is vowel");
+//   } else {
+//     print("$letter is a consonent");
+//   }
+// }
+
+
 void main(){
- int a=4;
- for(int i=1; i<=10; i++){
-  print("$i is $a");
- }
+  Map myMap={"name":"pagla","roll":"nai","khawa":467};
+  List<dynamic> emptyList=[];
+  emptyList.addAll(myMap.keys);
+  emptyList.addAll(myMap.values);
+  emptyList[1]="pagla";
+  emptyList[2]="roll";
+  emptyList[3]="nai";
+  emptyList[4]="khawa";
+  print(emptyList);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
