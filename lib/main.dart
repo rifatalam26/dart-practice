@@ -249,16 +249,9 @@ void main1(){
 //     return d;
 //   }
 // }
-
-
 void main(){
- List l=[12,"Rifat","Alam",21,"dahaka"];
-
- Map m={};
-
- m=l.asMap();
-
- print(m);
+ List l=[1,2,3,4,5,6,6,7,8,9,10];
+ print(l.reversed);
 }
 
 
