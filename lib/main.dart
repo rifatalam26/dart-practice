@@ -249,13 +249,12 @@ void main1(){
 //     return d;
 //   }
 // }
-//Sum of Natural Numbers
+// Print Multiples of a Number
 void main(){
- var sum=0;
- for(int i=1; i<=50; i++){
-  sum +=i;
+ int a=4;
+ for(int i=1; i<=10; i++){
+  print("$i is $a");
  }
- print(sum);
 }
 
 
