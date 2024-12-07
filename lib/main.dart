@@ -297,18 +297,14 @@ void main1(){
 //   print(emptyList);
 // }
 void main(){
-  List number=[1,2,3,4,5,6,7,8,9,34,10];
-  var largest=number[1];
-  var smallest=number[5];
-  for(int num in number){
-    if(num>largest){
-     largest=num;
-     //print(largest);
-    }if(num<smallest){
-      smallest=num;
-    }
-  }
-  print("largest nmber is $largest \n smallest number is $smallest");
+  Map m={"name":"alam","roll":9786,};
+  Map n={"name":"Rifat","roll":6756,};
+  List<dynamic> l=[];
+  l.addAll(m.keys,);
+  l.addAll(m.values);
+  l.addAll(n.keys);
+  l.addAll(n.values);
+  print(l);
 }
 
 
