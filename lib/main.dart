@@ -253,16 +253,17 @@ void main1(){
 // Find the Largest of Three Numbers
 void main(){
  int a=5;
- int b=7;
+ int b=17;
  int c=10;
- if(a>b && a>c){
+
+  if(a>b && a>c){
   print("$a is Largest");
- }else if(b>a && b>c){
+  }else if(b>a && b>c){
   print("$b is Largest");
- }else{
+  }else{
   print("$c is Largest");
+  }
  }
-}
 
 
 
