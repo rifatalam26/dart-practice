@@ -250,8 +250,17 @@ void main1(){
 //   }
 // }
 void main(){
- List l=[1,2,3,4,5,6,6,7,8,9,10];
- print(l.reversed);
+ int a=5;
+ bool c=true;
+ for(int i=2; i<a; i++){
+  if(a % i==0){
+   c=false;
+   break;
+  }
+ }
+
+  print("$a is ${c ? 'prime' : 'not prime'} number");
+
 }
 
 
