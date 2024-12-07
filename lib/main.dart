@@ -249,21 +249,16 @@ void main1(){
 //     return d;
 //   }
 // }
-
-// Find the Largest of Three Numbers
+//Sum of Natural Numbers
 void main(){
- int a=5;
- int b=17;
- int c=10;
-
-  if(a>b && a>c){
-  print("$a is Largest");
-  }else if(b>a && b>c){
-  print("$b is Largest");
-  }else{
-  print("$c is Largest");
-  }
+ var sum=0;
+ for(int i=1; i<=50; i++){
+  sum +=i;
  }
+ print(sum);
+}
+
+
 
 
 
