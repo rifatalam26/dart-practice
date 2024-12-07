@@ -284,17 +284,40 @@ void main1(){
 // }
 
 
+// void main(){
+//   Map myMap={"name":"pagla","roll":"nai","khawa":467};
+//   List<dynamic> emptyList=[];
+//   emptyList.addAll(myMap.keys);
+//   emptyList.addAll(myMap.values);
+//   // emptyList[1]="pagla";
+//   // emptyList[2]="roll";
+//   // emptyList[3]="nai";
+//   // emptyList[4]="khawa";
+//   emptyList.removeAt(3);
+//   print(emptyList);
+// }
 void main(){
-  Map myMap={"name":"pagla","roll":"nai","khawa":467};
-  List<dynamic> emptyList=[];
-  emptyList.addAll(myMap.keys);
-  emptyList.addAll(myMap.values);
-  emptyList[1]="pagla";
-  emptyList[2]="roll";
-  emptyList[3]="nai";
-  emptyList[4]="khawa";
-  print(emptyList);
+  List number=[1,2,3,4,5,6,7,8,9,34,10];
+  var largest=number[1];
+  var smallest=number[5];
+  for(int num in number){
+    if(num>largest){
+     largest=num;
+     //print(largest);
+    }if(num<smallest){
+      smallest=num;
+    }
+  }
+  print("largest nmber is $largest \n smallest number is $smallest");
 }
+
+
+
+
+
+
+
+
 
 
 
