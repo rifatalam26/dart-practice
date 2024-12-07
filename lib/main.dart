@@ -249,18 +249,14 @@ void main1(){
 //     return d;
 //   }
 // }
+//Check if a Number is Odd or Even
 void main(){
- int a=5;
- bool c=true;
- for(int i=2; i<a; i++){
-  if(a % i==0){
-   c=false;
-   break;
-  }
- }
-
-  print("$a is ${c ? 'prime' : 'not prime'} number");
-
+int a=77;
+if(a%2==0){
+ print("The number is Even");
+}else{
+ print("The number is Odd");
+}
 }
 
 
