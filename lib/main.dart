@@ -296,9 +296,9 @@ void main1(){
 void main() {
 
   List<dynamic> l= [1,2,7,'a',4,'b',9,15];
-  Map m={};
- m=l.asMap();
-  print(m);
+ // Map m={};
+
+  print(l.reversed);
 }
 
 
