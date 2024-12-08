@@ -305,17 +305,22 @@ void main1(){
 //  emptyList.sort();
 //   print(emptyList);
 // }
+// Find the Largest Number in a List
 void main(){
-  int number=-2;
-  if(number > 0){
-    print("number is positive");
-  }else if(number<0){
-    print("number is negative");
-  }else{
-    print("number is zero");
-  }
-}
+  List numList=[1,2,3,4,5,6,7,8,9,2,3,44,6,6];
+  var largest=numList[10];
+  //var smallest=numList[6];
+  for(int num in numList){
+    if(num>largest){
+      largest=num;
+    }
+    //if(num<smallest){
+     // smallest=num;
+   // }
 
+  }
+  print("largest number is $largest");
+}
 
 
 
