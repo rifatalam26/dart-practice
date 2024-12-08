@@ -295,10 +295,10 @@ void main1(){
 // }
 void main() {
 
-  List<dynamic> emptyList = [1,2,7,4,9,15];
-
- emptyList.replaceRange(1, 3, [5,8,10]);
-  print(emptyList);
+  List<dynamic> l= [1,2,7,'a',4,'b',9,15];
+  Map m={};
+ m=l.asMap();
+  print(m);
 }
 
 
