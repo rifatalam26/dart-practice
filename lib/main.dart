@@ -295,29 +295,23 @@ void main1(){
 // }
 // void main() {
 //   Map myMap = {"name": "pagla", "roll": "nai", "khawa": 467};
-//   List<dynamic> emptyList = [];
-//   emptyList.addAll(myMap.keys);
-//   emptyList.addAll(myMap.values);
+//   List<dynamic> emptyList = [1,2,7,4,9,15];
+//   //emptyList.addAll(myMap.keys);
+//  // emptyList.addAll(myMap.values);
 //   // emptyList[1]="pagla";
 //   // emptyList[2]="roll";
 //   // emptyList[3]="nai";
 //   // emptyList[4]="khawa";
-//  emptyList.sort();
+//  emptyList.
 //   print(emptyList);
 // }
-//Write a program to check if a number is prime.
+//Calculate the sum of all odd numbers between 1 and N.
 void main(){
-  int number=5;
-  var c=0;
-  for(int i=2; i<number; i++){
-    if(number % i==0){
-      c++;
-      break;
-    }
+  var sum=0;
+  for(int i=1; i<=20; i+=2){
+   sum+=i;
   }
-  if(c==0){
-    print("prime");
-  }
+  print(sum);
 }
 
 
