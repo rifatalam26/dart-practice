@@ -283,32 +283,38 @@ void main1(){
 //   }
 // }
 
-
 // void main(){
-//   Map myMap={"name":"pagla","roll":"nai","khawa":467};
-//   List<dynamic> emptyList=[];
+//   Map m={"name":"alam","roll":9786,};
+//   Map n={"name":"Rifat","roll":6756,};
+//   List<dynamic> l=[];
+//   l.addAll(m.keys,);
+//   l.addAll(m.values);
+//   l.addAll(n.keys);
+//   l.addAll(n.values);
+//   print(l);
+// }
+// void main() {
+//   Map myMap = {"name": "pagla", "roll": "nai", "khawa": 467};
+//   List<dynamic> emptyList = [];
 //   emptyList.addAll(myMap.keys);
 //   emptyList.addAll(myMap.values);
 //   // emptyList[1]="pagla";
 //   // emptyList[2]="roll";
 //   // emptyList[3]="nai";
 //   // emptyList[4]="khawa";
-//   emptyList.removeAt(3);
+//  emptyList.sort();
 //   print(emptyList);
 // }
 void main(){
-  Map m={"name":"alam","roll":9786,};
-  Map n={"name":"Rifat","roll":6756,};
-  List<dynamic> l=[];
-  l.addAll(m.keys,);
-  l.addAll(m.values);
-  l.addAll(n.keys);
-  l.addAll(n.values);
-  print(l);
+  int number=-2;
+  if(number > 0){
+    print("number is positive");
+  }else if(number<0){
+    print("number is negative");
+  }else{
+    print("number is zero");
+  }
 }
-
-
-
 
 
 
