@@ -305,12 +305,20 @@ void main1(){
 //  emptyList.sort();
 //   print(emptyList);
 // }
-// Find the Largest Number in a List
+// Find the Factorial of a Number
 void main(){
-  List numList=[1,2,3,4,5];
-  int largest=numList.reduce((a,b)=> a > b ? a:b);
-  print("largest is $largest");
+  int num=4;
+  int a=1;
+  for(int i=1; i<=num; i++){
+    a*=i;
+  //  print(a);
+  }
+  print(a);
 }
+
+
+
+
 
 
 
