@@ -297,7 +297,7 @@ void main() {
 
   List<dynamic> emptyList = [1,2,7,4,9,15];
 
- emptyList.sort();
+ emptyList.replaceRange(1, 3, [5,8,10]);
   print(emptyList);
 }
 
