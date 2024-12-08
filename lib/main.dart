@@ -305,11 +305,18 @@ void main1(){
 //  emptyList.sort();
 //   print(emptyList);
 // }
-//Generate Multiplication Table
+//Write a program to check if a number is prime.
 void main(){
   int number=5;
-  for(int i=1; i<=10; i++){
-    print("$i x $number = ${i * number}");
+  var c=0;
+  for(int i=2; i<number; i++){
+    if(number % i==0){
+      c++;
+      break;
+    }
+  }
+  if(c==0){
+    print("prime");
   }
 }
 
