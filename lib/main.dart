@@ -293,26 +293,14 @@ void main1(){
 //   l.addAll(n.values);
 //   print(l);
 // }
-// void main() {
-//   Map myMap = {"name": "pagla", "roll": "nai", "khawa": 467};
-//   List<dynamic> emptyList = [1,2,7,4,9,15];
-//   //emptyList.addAll(myMap.keys);
-//  // emptyList.addAll(myMap.values);
-//   // emptyList[1]="pagla";
-//   // emptyList[2]="roll";
-//   // emptyList[3]="nai";
-//   // emptyList[4]="khawa";
-//  emptyList.
-//   print(emptyList);
-// }
-//Calculate the sum of all odd numbers between 1 and N.
-void main(){
-  var sum=0;
-  for(int i=1; i<=20; i+=2){
-   sum+=i;
-  }
-  print(sum);
+void main() {
+
+  List<dynamic> emptyList = [1,2,7,4,9,15];
+
+ emptyList.sort();
+  print(emptyList);
 }
+
 
 
 
