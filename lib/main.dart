@@ -305,15 +305,12 @@ void main1(){
 //  emptyList.sort();
 //   print(emptyList);
 // }
-// Find the Factorial of a Number
+//Generate Multiplication Table
 void main(){
-  int num=4;
-  int a=1;
-  for(int i=1; i<=num; i++){
-    a*=i;
-  //  print(a);
+  int number=5;
+  for(int i=1; i<=10; i++){
+    print("$i x $number = ${i * number}");
   }
-  print(a);
 }
 
 
