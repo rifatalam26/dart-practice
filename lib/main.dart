@@ -307,19 +307,9 @@ void main1(){
 // }
 // Find the Largest Number in a List
 void main(){
-  List numList=[1,2,3,4,5,6,7,8,9,2,3,44,6,6];
-  var largest=numList[10];
-  //var smallest=numList[6];
-  for(int num in numList){
-    if(num>largest){
-      largest=num;
-    }
-    //if(num<smallest){
-     // smallest=num;
-   // }
-
-  }
-  print("largest number is $largest");
+  List numList=[1,2,3,4,5];
+  int largest=numList.reduce((a,b)=> a > b ? a:b);
+  print("largest is $largest");
 }
 
 
