@@ -19,13 +19,22 @@
 
  // Check Even or Odd
 
+// void main(){
+//   int number=61;
+//   print(number%2==0 ? "even" : "odd");
+// }
+
+ //Find Largest Element in a List
 void main(){
-  int number=61;
-  print(number%2==0 ? "even" : "odd");
+  List l=[1,4,8,20,5,2,11,10];
+  var largest=l[0];
+  for(int num in l){
+    if(num>largest){
+      largest=num;
+    }
+  }
+  print('largest number is $largest');
 }
-
-
-
 
 
 
