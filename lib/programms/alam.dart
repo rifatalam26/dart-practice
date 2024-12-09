@@ -11,16 +11,18 @@
 // }
 
  //Find the Largest of Two Numbers
+// void main(){
+//   int a=151;
+//   int b=154;
+// print("the largest number is ${a>b ? a : b}");
+// }
+
+ // Check Even or Odd
+
 void main(){
-  int a=151;
-  int b=154;
-print("the largest number is ${a>b ? a : b}");
+  int number=61;
+  print(number%2==0 ? "even" : "odd");
 }
-
-
-
-
-
 
 
 
