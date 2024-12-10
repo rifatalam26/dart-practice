@@ -56,14 +56,20 @@
 // }
 
 
-void main() {
-  int rowse = 5;
-  for (int i = 1; i <=rowse; i++) {
-    print('*' * i);
-  }
+// void main() {
+//   int rowse = 5;
+//   for (int i = 1; i <=rowse; i++) {
+//     print('*' * i);
+//   }
+// }
+
+// Write a program to sort a list of numbers.
+
+void main(){
+List num=[2,1,5,6,3,8,10,9,7];
+num.sort();
+print(num);
 }
-
-
 
 
 
