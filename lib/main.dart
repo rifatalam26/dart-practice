@@ -293,17 +293,55 @@ void main1(){
 //   l.addAll(n.values);
 //   print(l);
 // }
-void main() {
+// void main(){
+//   List num=[1,2,3,4,5];
+//   var sum=0;
+//   for(int i=num.first; i<=num.last; i++){
+//     sum+=i;
+//   }
+//   print(sum);
+// }
 
-  List<dynamic> l= [1,2,7,'a',4,'b',9,15];
- // Map m={};
+// void main() {
+//   int number = 12345, sum = 0;
+//   while (number != 0) {
+//     sum += number % 10;
+//     number ~/= 10;
+//     print(sum);
+//   }
+//   print("Sum of digits: $sum");
+// }
 
-  print(l.reversed);
+// void main(){
+//   String value=" Hehho world";
+//   var count=0;
+//   if(value == "a" ||
+//       value == "e" ||
+//       value == "i" ||
+//       value == "o" ||
+//       value == "u" ||
+//       value == "A" ||
+//       value == "E" ||
+//       value == "I" ||
+//       value == "U" ){
+//     count++;
+//
+//   }
+//   print(count);
+// }
+
+// void main() {
+//   int r = 5;
+//   for (int i = 1; i <= r; i++) {
+//     print('*' * i);
+//   }
+// }
+// Write a program to sort a list of numbers.
+void main(){
+  List num=[2,1,5,6,3,8,10,9,7];
+  num.sort();
+  print(num);
 }
-
-
-
-
 
 
 
