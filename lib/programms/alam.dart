@@ -65,13 +65,22 @@
 
 // Write a program to sort a list of numbers.
 
+// void main(){
+// List num=[2,1,5,6,3,8,10,9,7];
+// num.sort();
+// print(num);
+// }
+
 void main(){
-List num=[2,1,5,6,3,8,10,9,7];
-num.sort();
-print(num);
+    List a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+    //for(int i in a){
+   // if( i <= 5){
+     // print(i);
+   // }
+   // }
+   print([for(var i in a) if(i<=5) i ]);
+
 }
-
-
 
 
 
