@@ -314,13 +314,13 @@ void main1(){
 // For practice, write this code inside a function.
 
 void main(){
- List a = [5, 10, 15, 20, 25];
- List b=[a.first,a.last];
-   b.addAll(a);
-   print(b);
-
-
-
+  int a=3;
+  int b=5;
+  if (a > b){
+    print("a is big");
+  }else{
+    print('b is big');
+  }
 }
 
 
