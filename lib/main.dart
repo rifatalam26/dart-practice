@@ -316,7 +316,8 @@ void main1(){
 void main(){
  List a = [5, 10, 15, 20, 25];
  List b=[a.first,a.last];
-    print(b.reversed);
+   b.addAll(a);
+   print(b);
 
 
 
