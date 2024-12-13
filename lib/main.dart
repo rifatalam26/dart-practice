@@ -315,14 +315,8 @@ void main1(){
 
 void main(){
   int a=3;
-  int b=5;
-  int c=1;
-  if (a > b && a > c){
-    print("a is big");
-  }else if(b > a && b > c){
-    print('b is big');
-  }else {
-    print("c is big");
+  for(int i=0; i <= 10; i++){
+    print("$i x $a =${i*a}");
   }
 }
 
