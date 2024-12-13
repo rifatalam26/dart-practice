@@ -316,10 +316,13 @@ void main1(){
 void main(){
   int a=3;
   int b=5;
-  if (a > b){
+  int c=1;
+  if (a > b && a > c){
     print("a is big");
-  }else{
+  }else if(b > a && b > c){
     print('b is big');
+  }else {
+    print("c is big");
   }
 }
 
