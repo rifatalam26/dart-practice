@@ -314,10 +314,10 @@ void main1(){
 // For practice, write this code inside a function.
 
 void main(){
-  int a=7;
-  for(int i=0; i <= 10; i++){
-    print("$i x $a =${i*a}");
-  }
+  String myName="Mamun";
+
+  print(myName);
+
 }
 
 
