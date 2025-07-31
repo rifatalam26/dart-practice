@@ -314,9 +314,9 @@ void main1(){
 // For practice, write this code inside a function.
 
 void main(){
-  String myName="Mamun";
-
-  print(myName);
+  String myName="Mamun.con@";
+var a= 50~/30;
+  print(a);
 
 }
 
