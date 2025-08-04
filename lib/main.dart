@@ -314,14 +314,13 @@ void main1(){
 // For practice, write this code inside a function.
 
 void main(){
-  int count=5;
-  int sum=0;
-  for(int i=1; i<=count; i++){
-    int evenNumber= 2 * i;
-    sum=sum + evenNumber;
+
+  for(int i=1; i<=0; i--){
+    print(i);
   }
-  print("| |\n$sum");
-}
+  }
+
+
 
 
 
