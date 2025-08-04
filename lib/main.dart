@@ -314,10 +314,13 @@ void main1(){
 // For practice, write this code inside a function.
 
 void main(){
-  String myName="Mamun.con@";
-var a= 50~/30;
-  print(a);
-
+  int count=5;
+  int sum=0;
+  for(int i=1; i<=count; i++){
+    int evenNumber= 2 * i;
+    sum=sum + evenNumber;
+  }
+  print("| |\n$sum");
 }
 
 
